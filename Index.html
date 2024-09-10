@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Automatización y Programación</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .jumbotron {
+            background-color: #f8f9fa;
+            padding: 2rem 1rem;
+        }
+        .service-card {
+            margin-bottom: 1.5rem;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Argentina" width="30" height="20">
+            Servicios Técnicos
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#clients">Clientes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Servicios de Automatización y Programación</h1>
+        <p class="lead">Optimización de procesos industriales, programación de PLCs y HMIs, desarrollo de software a medida y más.</p>
+    </div>
+
+    <div class="container">
+        <section id="services">
+            <h2 class="text-center my-4">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4 service-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Consultoría en Automatización Industrial</h5>
+                            <p class="card-text">Ofrecemos asesoramiento para optimizar procesos de producción mediante la automatización.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Diagnóstico y Reparación de Sistemas Automatizados</h5>
+                            <p class="card-text">Especializados en la búsqueda y reparación de fallas en sistemas automatizados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Programación y Configuración de PLCs y HMIs</h5>
+                            <p class="card-text">Programación y configuración de controladores lógicos programables y interfaces hombre-máquina.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollo de Software a Medida para Fábricas</h5>
+                            <p class="card-text">Creación de software personalizado para gestionar y optimizar procesos industriales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Mejoras de Procesos y Eficiencia Operativa</h5>
+                            <p class="card-text">Análisis y mejora de procesos para aumentar la eficiencia y reducir costos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Integración de Sistemas y Bases de Datos</h5>
+                            <p class="card-text">Integración de sistemas de automatización con bases de datos para mejorar la gestión de la información.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Modificación y Actualización de Aplicaciones Existentes</h5>
+                            <p class="card-text">Actualización y modificación de software y sistemas existentes para mejorar su rendimiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clients" class="my-5">
+            <h2 class="text-center my-4">Clientes</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Fábricas y Plantas de Producción</li>
+                <li class="list-group-item">Empresas de Logística y Almacenamiento</li>
+                <li class="list-group-item">Industrias Alimentarias y Químicas</li>
+                <li class="list-group-item">Empresas de Tratamiento de Agua y Energía</li>
+            </ul>
+        </section>
+<section id="contact" class="my-5">
+    <h2 class="text-center my-4">Contacto</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" name="_replyto" placeholder="Tu correo electrónico" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tu mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+        
+    </div>
+
+    <footer class="text-center py-4">
+        <p>© 2024 Servicios Técnicos. Todos los derechos reservados.</p>
+    </footer>
+
+    <div class="whatsapp-button">
+        <a href="https://wa.me/5491150356984" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50" height="50">
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
